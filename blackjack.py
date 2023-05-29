@@ -77,9 +77,9 @@ while True:
 print("")
 if sum_hand(hand_one) > sum_hand(hand_two):
     print(f"Player 2 Total: {sum_hand(hand_two)}")
-    print("Player One is the winner!")
+    print("Player Two is the winner!")
 elif sum_hand(hand_two) > sum_hand(hand_one):
     print(f"Player 1 Total: {sum_hand(hand_one)}")
-    print("Player Two is the winner!")
+    print("Player One is the winner!")
 else: # Tie
     print("It is a tie!")
